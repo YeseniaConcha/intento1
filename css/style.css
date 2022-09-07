@@ -1,0 +1,48 @@
+form div {
+    margin: 10px;
+}
+
+fieldset {
+    min-width: 150px;
+    display: inline-block;
+}
+
+fieldset input {
+    float: right;
+    margin-left: 3em;
+}
+
+input[type="checkbox"] {
+    float: left;
+    margin: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #ffdee1;
+    padding: 2em;
+    margin: auto;
+}
+
+.circulo {
+    height: 1em;
+    width: 1em;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+ul {
+    list-style-type: none;
+}

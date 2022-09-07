@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación 3 - JS - Front end</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <body>
+
+
+        <div class="container ">
+
+            <div class="text-center mb-4 ">
+                <h1>Evaluación 3</h1>
+            </div>
+
+            <form method="POST" name="frm" action="">
+                <fieldset>
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" name="nombre" placeholder="Ingrese Nombre" id="Nombre">
+                    </div>
+
+                    <div>
+                        <label>Apellido</label>
+                        <input type="text" name="apellido" placeholder="Ingrese Apellido" id="Apellido">
+                    </div>
+
+                    <div>
+                        <label>Numero 1</label>
+                        <input type="text" name="numero1" placeholder="Ingrese Numero 1" id="Numero1">
+                    </div>
+                    <div>
+                        <label>Numero 2</label>
+                        <input type="text" name="numero2" placeholder="Ingrese Numero 2" id="Numero2">
+                    </div>
+                    <div>
+                        <label>Password</label>
+                        <input type="password" name="password1" placeholder="Ingrese Password" id="Password1">
+                    </div>
+                    <div>
+                        <label>Repetir Password</label>
+                        <input type="password" name="password2" placeholder="Repita Password" id="Password2">
+                    </div>
+                    <div>Seleccione al menos 3 opciones:
+                        <br><input type="checkbox" id="checkbox1" name="opcion_1" value="A ">Opción 1
+                        <br><input type="checkbox" id="checkbox2" name="opcion_2" value="B ">Opción 2
+                        <br><input type="checkbox" id="checkbox3" name="opcion_3" value="C ">Opción 3
+                        <br><input type="checkbox" id="checkbox4" name="opcion_4" value="D ">Opción 4
+                        <br><input type="checkbox" id="checkbox5" name="opcion_4" value="D ">Opción 4
+                        <br><input type="checkbox" id="checkbox6" name="opcion_5" value="E ">Opción 5
+                        <br><input type="checkbox" id="checkbox7" name="opcion_6" value="F ">Opción 6
+                    </div>
+                    <div>
+                        <button name="btnEnviar" id="btnEnviar">ENVIAR</div>
+            </fieldset>
+        </form>
+
+       
+        <h2>Actividad 1</h2>
+
+        <p>Mejore la presentación del diseño utilizando bootstrap</p>
+
+        <h2>Actividad 2</h2>
+        <p>Utilice Javascript para realizar las siguientes validaciones. En caso de que no pase la validación debe marcar el circulo de rojo (agregar clase rojo) en caso de que pase la validacion debe marcar el circulo de verde (agregar clase verde).</p>
+
+        <p>Una vez que pase todas las validaciones se debe enviar el formulario a la direccion ingresada en el mismo (destino).</p>
+
+        <p> </p>
+        <ul>
+            <li><div id="ok01" class="circulo"></div>El nombre no puede estar vacío</li>
+            <li><div id="ok02" class="circulo"></div>El apellido no puede estar vacío</li>
+            <li><div id="ok03" class="circulo"></div>Si se ingresa uno de los numeros, se debe ingresar el segundo, no puede haber solo uno.</li>
+            <li><div id="ok04" class="circulo"></div>El numero 1 debe ser menor que el numero 2 (si se ingresaron ambos)</li>
+            <li><div id="ok05" class="circulo"></div>La contraseña debe ser de entre 8 y 24 caracteres.</li>
+            <li><div id="ok06" class="circulo"></div>Ambas contraseñas coinciden.</li>
+            <li><div id="ok07" class="circulo"></div>Hay al menos 3 opciones seleccionadas.</li>
+        </ul>
+
+    </div>
+    <script src="js/formulario.js "></script>
+    </body>
+</body>
+</html>
